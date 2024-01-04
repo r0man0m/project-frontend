@@ -1,0 +1,78 @@
+body {
+    background-color: antiquewhite;
+}
+.players-table{
+    border: 1px solid black;
+    border-spacing: 1px;
+    background-color: whitesmoke;
+}
+
+.header-cell {
+    border: 1px solid black;
+    min-width: 80px;
+    padding: 5px;
+}
+.cell {
+    border: 1px solid black;
+}
+.cell-small {
+    min-width: auto;
+}
+
+.cell-auto {
+
+}
+.edit-image, .delete-image{
+    width: 40px;
+    height: 40px;
+}
+.hidden {
+    visibility: hidden;
+}
+button:hover {
+    cursor: pointer;
+}
+.pagination-container {
+    margin: 10px 0;
+}
+.accounts-per-page-wrapper{
+    margin: 20px 0;
+}
+.accounts-per-page-class, .active-pagination-button {
+    color: red;
+    background-color: whitesmoke;
+}
+.account-container {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    width: 1000px;
+}
+.create-form{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 300px;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+}
+.create-field {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin-bottom: 5px;
+}
+.button-save {
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+input {
+    border-radius: 3px;
+}
+#create-race-select, #create-profession-select, #create-birthday-input {
+    width: 170px;
+    border-radius: 3px;
+}
